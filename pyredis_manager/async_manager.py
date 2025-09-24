@@ -40,13 +40,3 @@ class AsyncRedisManager:
 
 
 async_redis_manager: AsyncRedisManager = AsyncRedisManager()
-
-
-async def main():
-    async_redis_manager.set_alias("default", 0)
-    default = async_redis_manager.get("default")
-    await default.set(name="fooo", value="barr", ex=300)
-    val = await default.get("fooo")
-    print(val)
-
-asyncio.run(main())
