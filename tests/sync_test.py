@@ -12,5 +12,4 @@ def test_set_and_get(redis_manager):
     assert value == b"bar"
 
 def test_alias_limit(redis_manager):
-    # 测试别名数量限制
     assert len(redis_manager.aliases) <= 16
