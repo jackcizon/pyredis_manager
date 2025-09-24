@@ -6,7 +6,7 @@ Only depends on the official redis / redis.asyncio library—no Flask, Django, o
 Synchronous Example:
 
 ```python
-from redis_manager import redis_manager
+from pyredis_manager import redis_manager
 
 
 redis_manager.set_alias('default', 0)
@@ -21,7 +21,7 @@ Asynchronous Example:
 ```python
 import asyncio
 
-from redis_manager import async_redis_manager
+from pyredis_manager import async_redis_manager
 
 
 async def main():
