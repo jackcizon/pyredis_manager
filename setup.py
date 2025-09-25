@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="pyredis_manager",
-    version="0.1.2",
+    version="0.1.3",
     author="jack-cizon",
     author_email="jack20021213cn@gmail.com",
     description="A lightweight Redis client manager with sync/async support",
@@ -13,9 +13,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jackcizon/pyredis_manager",
     packages=find_packages(),
-    python_requires=">=3.8",
+    python_requires=">=3.6",
     install_requires=[
-        "redis>=5.0.0",
+        "redis>=4.3.6",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",

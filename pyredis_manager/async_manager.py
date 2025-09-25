@@ -1,4 +1,3 @@
-import asyncio
 from itertools import islice
 from typing import Dict, Optional
 from redis.asyncio.client import Redis as AsyncRedis
