@@ -31,6 +31,6 @@ echo "🔹 build pkg..."
 python -m build
 
 echo "🔹 upload to PyPI..."
-twine upload dist/*
+twine upload --non-interactive dist/*
 
 echo "✅ publish to: v$VERSION"
