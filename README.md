@@ -3,6 +3,13 @@
 A lightweight, standalone Redis client manager supporting both synchronous and asynchronous operations, multi-alias management, and module-level singleton design.
 Only depends on the official redis / redis.asyncio library—no Flask, Django, or other frameworks required.
 
+
+## install
+
+```bash
+pip install pyredis-manager
+```
+
 Synchronous Example:
 
 ```python
