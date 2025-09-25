@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="pyredis_manager",
-    version="0.1.3",
+    version="0.1.4",
     author="jack-cizon",
     author_email="jack20021213cn@gmail.com",
     description="A lightweight Redis client manager with sync/async support",
